@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/layout_terms"
+        app:layout_constraintVertical_bias="0.7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="약관동의"
+            android:textColor="@color/textBoldColor"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_terms"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_layout"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3">
+
+        <CheckBox
+            android:id="@+id/checkbox_terms_all_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/highSchoolFish_Main"
+            app:buttonIconTint="#FFFFFF"
+            android:text="전체 동의하기"
+            android:textColor="@color/textBoldColor"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#AAAAAA"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/checkbox_terms_terms1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:buttonTint="@color/highSchoolFish_Main"
+                app:buttonIconTint="#FFFFFF"
+                android:text="(필수) 만 14세 이상"
+                android:textColor="@color/textThinColor"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/checkbox_terms_terms2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:buttonTint="@color/highSchoolFish_Main"
+                app:buttonIconTint="#FFFFFF"
+                android:text="(필수) 개인정보 처리방침 동의"
+                android:textColor="@color/textThinColor"/>
+
+            <TextView
+                android:id="@+id/textview_terms2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:text="보기"
+                android:textSize="13dp"
+                android:textColor="@color/textThinColor"/>
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkbox_terms_terms_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:buttonTint="@color/highSchoolFish_Main"
+            app:buttonIconTint="#FFFFFF"
+            android:text="(선택) 문자메세지 광고, 이벤트 수신"
+            android:textColor="@color/textThinColor"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_terms"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.85">
+
+        <Button
+            android:id="@+id/button_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:padding="15dp"
+            android:enabled="false"
+            android:text="약관동의"
+            android:textColor="@color/buttonColor"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

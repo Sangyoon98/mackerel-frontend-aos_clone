@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="highSchoolFish_Background">#000000</color>
+    <color name="highSchoolFish_Main">#BAC3FF</color>
+    <color name="highSchoolFish_Main_Dark">#000F5C</color>
+    <color name="highSchoolFish_Sub1">#B9B9B9</color>
+    <color name="highSchoolFish_Sub2">#FFFF</color>
+    <color name="buttonColor">#000000</color>
+    <color name="textBoldColor">#FFFFFF</color>
+    <color name="textThinColor">#AAAAAA</color>
+    <color name="successColor">#80B2FF</color>
+    <color name="errorColor">#FD8181</color>
+</resources>

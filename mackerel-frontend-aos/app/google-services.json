@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "711649188413",
+    "project_id": "highschoolfish-7c7b7",
+    "storage_bucket": "highschoolfish-7c7b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711649188413:android:d49217a8e8ada0378c2854",
+        "android_client_info": {
+          "package_name": "com.mackerel_frontend_aos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711649188413-p0nmlndn9puqm7q3rkj6cn2u1antn7ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mackerel_frontend_aos",
+            "certificate_hash": "70a7ec69ce785e3f9fd8950becad97bdc83df8d6"
+          }
+        },
+        {
+          "client_id": "711649188413-pdtvq30r0bm32225ssgviiqhc2f3cb24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB95y-DyFlg_1TUOST58nTpY9psXGcT4cA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711649188413-pdtvq30r0bm32225ssgviiqhc2f3cb24.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "711649188413-624hiqo20hml7ts30hgjc2tc1tmorb10.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bhyn.HighSchoolFish"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
